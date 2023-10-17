@@ -1,25 +1,29 @@
-synth = /pd/freeze , low = 1.0 , high = 0.0 , synth high
+note = /pd/note-on , f = /pd/fq , slide = /pd/slide , adsr = /pd/adsr , expr = /pd/expr , adsr 500 200 0.8 6000 , LPM = 120 , note 0 , f 60 ,slide 30 , note 127 , expr 0.5 ; setting everything up
+expr 0.2 , f 60
 
-synth low
+f 62
 
-synth high
+f 63 , expr 0.5
+f 62
+f 63 , expr 0.8
 
-synth low
-synth low
+f 62
+expr 0.5
+f 55 ,
 
+f 67
 
+f 69
+f 67
+f 69
+f 70
 
-synth low
+f 72
 
-synth high
+f 69
 
-synth low
-synth low
+f 69.2 , adsr 100 100 0.5 100
 
+f 69.2
 
-synth low
-
-synth high
-
-synth low
-synth low
+note 0
